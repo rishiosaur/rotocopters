@@ -1,0 +1,8 @@
+PWD /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/sections
+INPUT /usr/local/texlive/2019/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2019/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/sections/s1.tex
+OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/sections/s1.log
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/subfiles/subfiles.cls
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/subfiles/subfiles.cls
