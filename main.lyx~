@@ -1,0 +1,1156 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/
+\textclass article
+\begin_preamble
+\usepackage{subfiles}
+\usepackage{braket}
+
+
+\usepackage{listings}
+
+
+\usepackage{amsthm}
+
+
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\usepackage{xcolor}
+
+
+% \usepackage{arev}
+
+% \usepackage{fontspec}
+%     \setmainfont{SF Pro Text Regular}
+%     \setmonofont{Fira Code Retina}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge}
+  {\bfseries\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titleformat{\section}
+    {\normalfont\Large}
+    {\thesection}{1em}{}
+
+\titleformat{\subsection}
+    {\normalfont\itshape\large}
+    {\thesubsection}{1em}{}
+
+\definecolor{codegreen}{rgb}{0.3,0.3,0.3}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.69,0.69,0.69}
+ 
+\lstdefinestyle{mystyle}{ 
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{codegreen}\normalfont,
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,   
+	tabsize=2,
+    basicstyle=\ttfamily
+}
+ 
+\lstset{style=mystyle}
+
+
+\usepackage{titling}
+\renewcommand{\maketitlehooka}{\null\mbox{}\vfill}
+\renewcommand{\maketitlehookd}{\vfill\null}
+
+\title{\Huge The effects of weight distribution on flight time of rotocopter}
+\author{\LARGE Your name here}
+
+
+
+
+
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Phi Design"
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 1
+\pdf_backref section
+\pdf_pdfusetitle 0
+\pdf_quoted_options "linkcolor=black,filecolor=cyan,urlcolor=cyan,"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{gobble}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Definitions
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{definition}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+Wing Weight Ratio
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ This is a ratio in the form 
+\begin_inset Formula $x:y$
+\end_inset
+
+, where 
+\begin_inset Formula $x$
+\end_inset
+
+ is the number of standard, 0.03g staples stapled to the left wing of a rotocopter, and 
+\begin_inset Formula $y$
+\end_inset
+
+ is the number of standard, 0.03g staples stapled to the right wing of that same rotocopter, satisfying 
+\begin_inset Formula $x + y = 8$
+\end_inset
+
+. The phrase 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+decreased wing weight ratio
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ denotes the value of 
+\begin_inset Formula $\frac{x}{y}$
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{definition}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note that unless otherwise stated, all integer values in this paper denote the number of standard, 0.03g staples (i.e. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+The ratio of 3:4
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ denotes 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+The equivalent weight of 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Section
+Research Question
+\end_layout
+
+\begin_layout Standard
+How does altering the distribution of weight on a rotocopter's wings (between the left-to-right-wing-weight ratios ranging from 
+\begin_inset Formula $1$
+\end_inset
+
+ to 
+\begin_inset Formula $>0.14$
+\end_inset
+
+), measured in terms of grams, affect the total flight time of the rotocopter, measured in terms of seconds from the instant that the rotocopter is dropped from its initial height of 2.5m to the the time that the rotocopter touched the floor?
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+One of the fundamental underpinnings of our world is the idea of flight; the world would not have become as accessible as it is today had there not been the breakthrough discoveries of thrust, lift, drag, and gravity. As our understanding of these factors changed, so too have our vehicles. Humans were able to engineer complex devices like the helicopter, airplane, and hybrids of these devices, and were able to change the ways that flight change. Focusing on the helicopter specifically, some of the properties that have been discovered to change the way that the object flies include the rounding of the wing, sharpness of a wing's rear edge, as well as wing tilt (). Each of these properties link back to the 4 main points, as discussed before, and are simply physical features that affect these mathematical factors. However, the experimenters' interests were piqued when they looked at an image of a helicopter's rotor blades. The blades seemed to be drooping on one side, but remained upright on the other, showing a difference in weight for both of the wings. Each of the aforementioned physical factors were found to affect flight purely through experimentation, and this idea was continued in this experiment.
+\end_layout
+
+\begin_layout Standard
+In order to understand why different helicopter blades drooped down, and explore how weight distribution affects fligh in the process, an adequate substitute needed to be found. The ideal substitute was found to be a rotocopter, for its striking relationship to a helicopter. In any flying vehicle, lift is always produced by air passing over some wing (). In a helicopter, the movement of the rotor blades allow for air to pass over them, and the pressure differential between the top of the wing and the bottom is what produces lift (). However, these rotor blades are able to produce lift because of their motorized capabilities; in having a motor, a greater speed can be achieved, which is eventually enough to combat the force of gravity. This allows the helicopter to manoeuvre in specialized ways, such as hovering, going straight up and down, rolling, and tilting forward. A rotocopter, on the other hand, does not have a motor, but it does have the same rotational energy as a helicopter, albeit at a much slower rate. As the wings of the rotocopter rotate, they, much like the helicopter, generate a small amount of lift. However, because of the rotocopter's lack of a motor, it merely combats the strength of gravity, and does not subdue it. This makes the rotocopter an excellent subject for understanding the effects of flight;
+\end_layout
+
+\begin_layout Section
+Purpose
+\end_layout
+
+\begin_layout Standard
+The purpose of this experiment to understand the effects of weight distribution on flight time within the context of rotocopters. Using a total of 8 staples for each measurement and shifting the ratio of staples per wing will give a greater understanding of how weight 
+\shape italic
+placement
+\shape default
+ affects flight, as opposed to merely modulating the weight itself. Moving the metaphorical lens outwards, this experiment will also help develop a basic understanding of real-world flight factors, such as the mechanics behind airplane turning and helicopter lift.
+\end_layout
+
+\begin_layout Section
+Hypothesis
+\end_layout
+
+\begin_layout Standard
+It is hypothesized that if the wing weight ratio of the rotocopter is decreased, then the time taken for the rotocopter to fly from its perch 2.5m above the ground to the ground will decrease.
+\end_layout
+
+\begin_layout Subsection
+Justification
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Hypothesis Justification"
+
+\end_inset
+
+ This experiment's testing procedure mimics the way that weight is distributed among the two wings of an aircraft.
+\end_layout
+
+\begin_layout Standard
+The weight distribution across the wings of the rotocopter will be changed by taking a certain amount of weight from one wing and adding it to the other, which mimics the manner in which a winged aircraft normally turns.
+\end_layout
+
+\begin_layout Standard
+Taking the example of a simple biplane, turning is not achieved by rotating about the 'z' axis, as a car would, but rather by turning about the 'x' axis, using a technique known as 'banking'.
+\end_layout
+
+\begin_layout Standard
+In order to turn an airplane, flaps on the wings known as ailerons are rotated, which affects the airflow passing over the wing. This modified airflow creates a pressure differential above and below the wing in question, which can create or take away lift. This idea can be thought of as putting weight on a certain wing, allowing the airplane to turn, as can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Banked Turn"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename graphics/aileron.jpg
+	scale 50
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A demonstration of how changing the angles of the ailerons affects the roll of an airplane, allowing it to turn
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Banked Turn"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+However, changing the angle of the flight is not the only effect banking has on an airplane's angle: it also decreases the 
+\shape italic
+total
+\shape default
+ amount of lift on the airplane.
+\end_layout
+
+\begin_layout Standard
+See, as the airplane rolls to one direction, its lift vector moves with it, as can be seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Banking Lift"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics 
+	filename graphics/bank-left.jpg
+	scale 25
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+The effect that banking has on an aircraft's total lift
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Banking Lift"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This means that as an airplane rolls, its altitude decreases correspondingly, as the total lift on the airplane is no longer facing upwards. In order for the airplane's altitude to stay constant, more speed must be applied to it, so that more airflow can be applied to the wings, and thus creating lift. In essence, as the bank of an aircraft changes, the speed increases.
+\end_layout
+
+\begin_layout Standard
+This same principle can be applied to this experiment, as in order to change the weight distribution of a rotocopter, weight must be taken from one wing and added to the other. This is much like the way that an airplane banks, but using physical weights as opposed to air. As a result, it can be assumed that the 'bank' angle of the rotocopter will change in correlation with a decrease in the ratio of the weights of the rotocopter's wings (i.e. a rotocopter with weight ratio 4:4 would be perfectly level, but a rotocopter with weight ratio 0:8 would heavily lean towards the side).
+\end_layout
+
+\begin_layout Standard
+Just as the increase of a bank angle in an aircraft causes a corresponding change in the speed of that aircraft, it can also be assumed that this property follows through in rotocopters as well.
+\end_layout
+
+\begin_layout Standard
+As stated previously, a rotocopter with weight ratio 4:4 would be level, but a rotocopter with weight ratio 0:8 would heavily lean towards the side, indicating a negative linear relationship
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+Note that it is assumed to be linear because all the possible shifts in the wing weight ratio (4:4, 3:5, 2:6, 1:7, etc.) all have equal increments, which follow a linear pattern
+\end_layout
+
+\end_inset
+
+ between the amount of time taken to fly from the perch to the ground and the wing weight ratio; as the wing weight ratio decreases, the speed increases, which decreases the amount of time taken to cross a given distance.
+\end_layout
+
+\begin_layout Section
+Variables
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "independent"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsection
+Independent
+\end_layout
+
+\begin_layout Standard
+The only part of the experiment that is being changed is the
+\end_layout
+
+\begin_layout Subsection
+Dependent
+\end_layout
+
+\begin_layout Standard
+The total amount of time the rotocopter spent in the air, measured in seconds from the moment that the rotocopter was dropped from its perch 
+\begin_inset Formula $2.5 \pm 0.1$
+\end_inset
+
+m above ground, to the point in time at which any part of the rotocopter was touching the chosen ground.
+\end_layout
+
+\begin_layout Subsection
+Standardized
+\end_layout
+
+\begin_layout Subsubsection
+Height of Rotocopter perch
+\end_layout
+
+\begin_layout Standard
+The measured flight time is the total amount of time that it takes for a given rotocopter to travel from its perch at
+\end_layout
+
+\begin_layout Subsubsection
+Material choice and dimensions of Rotocopter
+\end_layout
+
+\begin_layout Standard
+Every material has a certain density associated with it. This means that as the material is changed, the mass of the given rotocopter also changes. According to Newton's Second Law of Motion (recall 
+\begin_inset Formula $F=ma$
+\end_inset
+
+), a greater mass will result in a 
+\series bold
+greater time to accelerate to the same speed
+\series default
+. By extension, this means that a rotocopter with a larger mass would have an ending speed lower than that of a regular mass, thus increasing the flight time for the larger one, and skewing the data in the process
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+The control group was designed with this fact in mind
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Prescence of air drafts
+\end_layout
+
+\begin_layout Standard
+The measured (dependent) variable of the experiment, in a general context, is the time taken for an object to fly from one point to another as a result of some change to the given object. Introducing a headwind or tailwind (two types of air drafts) would change the speed of the object unnaturally, which would lead to a lower or higher speed, respectively. This would cause the timing to be skewed.
+\end_layout
+
+\begin_layout Subsubsection
+Proximity to wall
+\end_layout
+
+\begin_layout Standard
+In order to measure the time taken for any object to fall, the object must be able to fall unobstructed. The proximity to any wall is especially important in an experiment of this nature -one dealing primarily with flight-, as flight paths are more often than not unpredictable.
+\end_layout
+
+\begin_layout Section
+Materials
+\end_layout
+
+\begin_layout Itemize
+Five (5) rotocopter stencils, printed out on standard white 
+\begin_inset Formula $8\frac{1}{2}$
+\end_inset
+
+in x 11in paper 
+\end_layout
+
+\begin_layout Itemize
+One (1) pair of scissors 
+\end_layout
+
+\begin_layout Itemize
+One (1) meter stick, with increments in centimetres 
+\end_layout
+
+\begin_layout Itemize
+One (1) Stapler 
+\end_layout
+
+\begin_layout Itemize
+Forty (40) Standard, 0.03
+\begin_inset Formula $\pm$
+\end_inset
+
+0.01g staples 
+\end_layout
+
+\begin_layout Itemize
+One (1) Machine thing u used 
+\end_layout
+
+\begin_layout Itemize
+Timer (phone app) 
+\end_layout
+
+\begin_layout Itemize
+One (1) DaVinci Resolve Video Editor 
+\end_layout
+
+\begin_layout Itemize
+One (1) 
+\end_layout
+
+\begin_layout Itemize
+One (1) Chair 
+\end_layout
+
+\begin_layout Itemize
+One (1) Assistant 
+\end_layout
+
+\begin_layout Section
+Procedure
+\end_layout
+
+\begin_layout Enumerate
+Each of the rotocopter stencils were laid out on a table, and one was selected for usage. 
+\end_layout
+
+\begin_layout Enumerate
+Using the pair of scissors, the stencil was cut according to its solid lines; the solid black lines served as guidelines for shaping the rotocopterâs net 
+\end_layout
+
+\begin_layout Enumerate
+After cutting each of the stencils into the appropriate shape, each stencil was folded and creased along the dotted lines. 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+This produced one (1) rotocopter, which looked like the following: 
+\end_layout
+
+\begin_layout Itemize
+TODO 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For each of the two âwingsâ of the rotocopter, marks were made 2
+\begin_inset Formula $\pm$
+\end_inset
+
+0.05cm from the centre of the ending edge of each, as seen in Figure 2: 
+\end_layout
+
+\begin_layout Enumerate
+Steps 1-3 were repeated for each of the other 4 templates. 
+\end_layout
+
+\begin_layout Enumerate
+One of the rotocopters were designated to be a part of the control group, and have a ratio of 4 staples on the right wing, and 4 staples on the left wing. 
+\end_layout
+
+\begin_layout Enumerate
+For this control group rotocopter, hold the centre part of the copter such that your hand is clamped on the bridge between one wing and the tail of the rotocopter. 
+\end_layout
+
+\begin_layout Enumerate
+4 0.03
+\begin_inset Formula $\pm$
+\end_inset
+
+0.01g staples were stapled on the wing that is facing away from the experimenter directly on the mark mentioned in step 4. 
+\end_layout
+
+\begin_layout Enumerate
+The rotocopter was then turned around 180
+\begin_inset Formula $\deg$
+\end_inset
+
+, such that the unstapled wing was facing away from the experimenter. 
+\end_layout
+
+\begin_layout Enumerate
+Step 8 was then repeated for the other wing. 
+\end_layout
+
+\begin_layout Enumerate
+Each of the other 4 rotocopters were designated to be modified as per the requirements set out by the independent variable (See 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "independent"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) 
+\end_layout
+
+\begin_layout Enumerate
+One of the rotocopters were selected, and steps 
+\end_layout
+
+\begin_layout Enumerate
+Steps 8-10 for each of the other rotocopters. 
+\end_layout
+
+\begin_layout Enumerate
+Set each of the rotocopters down on a flat surface, such that they are all facing upwards. 
+\end_layout
+
+\begin_layout Enumerate
+A space of 3m x 3m x 2.5m, with at least one wall was designated for experimentation. 
+\end_layout
+
+\begin_layout Enumerate
+The metre stick was aligned with the wall, such that the stick was parallel to the wall, while still touching it. 
+\end_layout
+
+\begin_layout Enumerate
+The alignment was a crucial step in the process, as this is what designated the drop of the 
+\end_layout
+
+\begin_layout Enumerate
+Mark the Measurement with a piece of tape(the bottom of the tape must be at the end of 2.5m measurement) 
+\end_layout
+
+\begin_layout Enumerate
+Move the chair next to the wall 
+\end_layout
+
+\begin_layout Enumerate
+Make sure that the chair is facing 90
+\begin_inset Formula $\deg$
+\end_inset
+
+ away from the wall(assuming 0
+\begin_inset Formula $\deg$
+\end_inset
+
+ is facing the wall) 
+\end_layout
+
+\begin_layout Enumerate
+Stand on the chair(make sure to have the back post behind you) 
+\end_layout
+
+\begin_layout Enumerate
+Make sure to have a rotocopter with one adjustment(the ratio of staples on each wing) 
+\end_layout
+
+\begin_layout Enumerate
+Hold the rotocopter so that the bottom of the stem is at where the tape ends(the bottom part of the tape) 
+\end_layout
+
+\begin_layout Enumerate
+Make sure to have your partner ready to time/record the drop (with their app or stopwatch) 
+\end_layout
+
+\begin_layout Enumerate
+Drop the rotocopter after the count of 3..2..1...Go 
+\end_layout
+
+\begin_layout Enumerate
+At Go make sure that your partner starts the timer (this is when you drop the rotocopter at Go) 
+\end_layout
+
+\begin_layout Enumerate
+Record the results (the time) 
+\end_layout
+
+\begin_layout Enumerate
+Repeat his process 5 more times to ensure an accurate measurement (for a total of 6 tests) 
+\end_layout
+
+\begin_layout Section
+Data
+\end_layout
+
+\begin_layout Subsection
+Uncertainties
+\end_layout
+
+\begin_layout Standard
+The experimental values were calculated using a variety of factors, but all had one thing in common: the interactions of humans. In recording the data, humans were employed for the tast of starting and ending the recording, which
+\end_layout
+
+\begin_layout Section
+Discussion
+\end_layout
+
+\begin_layout Subsection
+Results and Analysis
+\end_layout
+
+\begin_layout Subsubsection
+Fitting the model and initial comparison with hypothesis
+\end_layout
+
+\begin_layout Standard
+It was initially hypothesized that as the wing weight ratio of a rotocopter was decreased, the flight time would also decrease. In other words, plotting the average flight time of a given rotocopter against its wing weight ratio should reveal a negative, linear correlation. This hypothesis was not supported in the graphs; in Figure 4, it can be seen that the line of best fit (hereon referred to as the LOBF) followed this pattern of a decreasing negative correlation. The data in both Table 1 and Graph 1 showcase this fact, as each of the times are decreasing in correlation with a lower wing-weight ratio. However, the 
+\begin_inset Formula $R^2$
+\end_inset
+
+ value of the LOBF in Table 1 was about 
+\begin_inset Formula $0.3$
+\end_inset
+
+, which means that it had an accuracy measurement of 
+\begin_inset Formula $\pm 30\%$
+\end_inset
+
+. This was an unacceptable value to draw conclusions from, thus necessitating an adjustment to the LOBF. The experimenters changed the modelling equation from a linear model to a polymnomial one of degree 
+\begin_inset Formula $2$
+\end_inset
+
+, as there was a dip in the data around the 
+\begin_inset Formula $2:6$
+\end_inset
+
+ ratio measurement. After this was done, the 
+\begin_inset Formula $R^2$
+\end_inset
+
+ value jumped up to 
+\begin_inset Formula $0.95$
+\end_inset
+
+, meaning that it was a much more accurate model, as can be seen by the closeness of the points to the curve in Figure 5.
+\end_layout
+
+\begin_layout Subsubsection
+Qualities of Polynomial Curve
+\end_layout
+
+\begin_layout Standard
+Because of the jump in the 
+\begin_inset Formula $R^2$
+\end_inset
+
+ value with the second curve, the polynomial curve was deemed to be the best representation of the data at hand. Analyzing this curve, one can see that there is an 'optimal value' of the graph, whose y-value represents the time taken for the rotocopter to reach the ground, and the x-value representing the ratio of the weight of the left wing to the weight of the right. Coming back to the main point, this graph and optimized data only partially proves the hypothesis. it was stated that there would be a negative 
+\shape italic
+linear
+\shape default
+ correlation. The graph proves that there is a point at which the speed simply cannot be increased anymore; in other words, there is a minimum value. This point is further discussed in 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Qualitative Data"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+. This quadratic relation also showed that the two maximum values of the dataset were the two extreme ratios; the wing weight ratios of
+\end_layout
+
+\begin_layout Subsubsection
+Qualitative Data and Observations
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Qualitative Data"
+
+\end_inset
+
+ The findings in the quantitative data were supported by the visuals found in the qualitative data. At the beginnning of the procedure, when the testing of control group began, it can be seen that the rotocopter is spinning and gliding down at a relatively low speed (See file 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+verb|IMG_3695.mov|
+\end_layout
+
+\end_inset
+
+), and this effect is mimicked in the later stages of the experiment. In the testing of the last ratio (8 staples on the left wing, 0 on the right), it can be seen that the rotocopter did not spin, but glided down at a rate similar to the first one. In the parabola shown in (graph), it can also be seen that the lowest time taken to fly from the 
+\begin_inset Formula $2.5\pm0.05$
+\end_inset
+
+m starting point to the landing point on the ground was achieved by the rotocopter with wing ratios of 
+\begin_inset Formula $2:6$
+\end_inset
+
+, which was perfectly in the middle of all the trials, which took about 
+\begin_inset Formula $0.71$
+\end_inset
+
+seconds. In the footage (See file 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+verb|IMG_3715.mov|
+\end_layout
+
+\end_inset
+
+), it can be seen that the rotocopter with wing ratios of 
+\begin_inset Formula $2:6$
+\end_inset
+
+ simply fell to the ground, as opposed to gracefully gliding down to the surface in the same manner as the other trials.
+\end_layout
+
+\begin_layout Subsection
+Possible Errors
+\end_layout
+
+\begin_layout Standard
+Despite the data being quite precise (the ranges in Figure 4 are all relatively small), there could still have been both systematic and random errors made in the collection process, which might have skewed the data.
+\end_layout
+
+\begin_layout Subsubsection
+Systematic
+\end_layout
+
+\begin_layout Standard
+One of the major factors affecting flight is wind, as it pushes air at either a greater or lower speed, depending on the type. This affects flight time readings for small objects much more; as a result of their small mass, objects like paper rotocopters are much more finicky. Although the experiment was conducted in a section of a hallway, there were still numerous possible sources of wind. In the experiment space, there were doors that were being opened and closed repeatedly, whose motion could've caused wind. In addition, the experimenters did not have any coverings over their mouths, so heavy breathing could've also affected the measurements through the air produced.
+\end_layout
+
+\begin_layout Standard
+However, there may also have been errors in the technology used. For the initial experiment, the experimenters used a 2019 iPhone XR camera, which shot at approximately 30 frames per second, at a resolution of 1080p. This means that every 
+\begin_inset Formula $\frac{1}{30}$
+\end_inset
+
+ seconds, a moment in time is captured. In some cases, the time that the rotocopter first touched the ground was in between these 
+\begin_inset Formula $\frac{1}{30}$
+\end_inset
+
+ second increments, which could've skewed the final data. In addition to this, there is a certain amount of delay between the pressing of the 'start recording' button and the time that the camera actually starts recording. This tiny amount of delay could've easily thrown off the measurements
+\end_layout
+
+\begin_layout Subsubsection
+Random
+\end_layout
+
+\begin_layout Standard
+As a result of averaging the values, many of the random errors were filtered out. However, there were still some random errors in the experiment.
+\end_layout
+
+\begin_layout Standard
+One possible error could've been in the process of creating the rotocopters themselves. Each of the rotocopter templates required precise measurements and cutting of the paper, and owing to the rotocopter's small size, any miniscule mistake would have relatively large implications. For instance, if there was a rip in the paper around the centre of the copter, then air would be able to flow through that space, allowing the object to drop down faster.
+\end_layout
+
+\begin_layout Standard
+Continuing on the point of human error, mistakes could also have been made in the experimentation process. The procedure states that humans dropped and interacted with all of the experimental objects. Humans can clearly see objects down to 
+\begin_inset space ~
+
+\end_inset
+
+0.026mm when the object is 
+\begin_inset space ~
+
+\end_inset
+
+15cm away from the eye in question (cite). As such, the process of dropping the rotocopter from a fixed height was not entirely precise. This problem of human accuracy could also have translated in the data collection of the experiment, through the time that the recording of footage began. In the procedure, it is noted in step () that the recording of the trial was started as soon as the person standing on the chair dropped the rotocopter 
+\shape italic
+and
+\shape default
+ said, 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+Go
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ or some other keyword. As a result, this part of the experiment relies mostly on the reflex time of each of the individuals conducting the experiment; the person dropping the copter has to react to their dropping, then say a keyword, then the individual who is recording must then react to the keyword, and then start recording. Each of these steps take place in succession, adding to the amount of time it takes for the rotocopter's
+\end_layout
+
+\begin_layout Subsection
+Improvements
+\end_layout
+
+\begin_layout Standard
+As was demonstrated by the high amount of possible systematic and random errors in the experiment, there were numerous ways that the experiment could've been improved, starting with the human interactions. Obviously, our bodies are not necessarily suited to measure items with precision, so if this experiment were to be repeated, the humans would need to be replaced by machines, and more accurate devices. For instance, a robot arm could be used instead of a human to drop the rotocopter, ensuring a constant drop height. This arm could also be linked to the record button on the camera, or be linked to an automation system that starts recording on drop.
+\end_layout
+
+\begin_layout Standard
+In order to become more certain about the
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+In conclusion, the purpose of this experiment was to understand the effects of weight distribution of the wings of a rotocopter, between ratios ranging from 
+\begin_inset Formula $1$
+\end_inset
+
+ to 
+\begin_inset Formula $>0.14$
+\end_inset
+
+, on the time taken to fly from one point 2.5m above the ground to the ground. This was done by stapling a total of 8 staples to the wings of the rotocopters, 2
+\begin_inset Formula $\pm$
+\end_inset
+
+0.05cm away from a given wing's edge, with each trial having a different ratio of staples
+\end_layout
+
+\end_body
+\end_document

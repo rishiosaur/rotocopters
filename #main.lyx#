@@ -831,10 +831,6 @@ Forty (40) Standard, 0.03
 \end_layout
 
 \begin_layout Itemize
-One (1) Machine thing u used 
-\end_layout
-
-\begin_layout Itemize
 Timer (phone app) 
 \end_layout
 
@@ -887,11 +883,11 @@ TODO
 
 \end_deeper
 \begin_layout Enumerate
-For each of the two âwingsâ of the rotocopter, marks were made 2
+For each of the two wings of the rotocopter, marks were made 2
 \begin_inset Formula $\pm$
 \end_inset
 
-0.05cm from the centre of the ending edge of each, as seen in Figure 2: 
+0.05cm from the centre of the ending edge of each: 
 \end_layout
 
 \begin_layout Enumerate
@@ -953,16 +949,22 @@ noprefix "false"
 \end_layout
 
 \begin_layout Enumerate
-Repeat steps 8-10 for each of these 4 rotocopters, but decreasing the amount
- of staples stapled to the left wing by 1, and increasing the amount of
- staples stapled to the right wing by 1 each time, making sure to have a
- sum total of 8 staples stapled to the rotocopter every time.
+Steps 8-10 were repeated for each of these 4 rotocopters, decreasing the
+ amount of staples stapled to the left wing by 1, and increasing the amount
+ of staples stapled to the right wing by 1, all while making sure to have
+ a sum total of 8 staples stapled to the rotocopter every time.
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
-Set each of the rotocopters down on a flat surface, such that they are all
- facing upwards.
- 
+After this step is completed, it was noted that the experimenters had 5
+ rotocopters with wing weight ratios 4:4, 3:5, 2:6, 1:7, and 0:8, respectively.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Set each of the rotocopters down on a flat surface, such that each of their
+ wings are touching the surface and their 'tails' are facing upwards.
 \end_layout
 
 \begin_layout Enumerate
@@ -973,22 +975,26 @@ ion.
 
 \begin_layout Enumerate
 The metre stick was aligned with the wall, such that the stick was parallel
- to the wall, while still touching it.
+ to the wall while still touching it.
  
 \end_layout
 
+\begin_deeper
 \begin_layout Enumerate
 The alignment was a crucial step in the process, as this is what designated
- the drop of the 
+ the height of the drop of the rotocopters
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The measurements were all marked with small pieces of tape, making sure
+ to centre the tape pieces exactly over the measured distances.
 \end_layout
 
 \begin_layout Enumerate
-Mark the Measurement with a piece of tape(the bottom of the tape must be
- at the end of 2.5m measurement) 
-\end_layout
-
-\begin_layout Enumerate
-Move the chair next to the wall 
+The chair was then moved next to the wall, such that it was parallel to
+ the wall, 3m away from the wall when measured as a perpendicular line and
+ in the centre of 
 \end_layout
 
 \begin_layout Enumerate
@@ -1037,7 +1043,7 @@ Record the results (the time)
 
 \begin_layout Enumerate
 Repeat his process 5 more times to ensure an accurate measurement (for a
- total of 6 tests) 
+ total of 6 tests)
 \end_layout
 
 \begin_layout Section

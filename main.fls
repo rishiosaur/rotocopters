@@ -48,6 +48,16 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/braket/braket.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/braket/braket.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -75,10 +85,8 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
+INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/amscls/amsthm.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/titling/titling.sty
@@ -98,8 +106,14 @@ INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
 OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
+OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -127,7 +141,9 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.toc
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.toc
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.toc
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
@@ -136,16 +152,33 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+OUTPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.toc
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
-INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/aileron.jpg
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/aileron.jpg
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/aileron.jpg
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/bank-left.jpg
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/bank-left.jpg
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/bank-left.jpg
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
 INPUT /usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/experiment-diagram.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/experiment-diagram.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/experiment-diagram.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-linear.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-linear.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-linear.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-quadratic.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-quadratic.png
+INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-quadratic.png
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.aux
 INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
 INPUT /Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
@@ -153,5 +186,7 @@ INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
