@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  23 FEB 2020 23:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  23 FEB 2020 23:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -456,18 +456,18 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
  [4]
-<graphics/experiment-diagram.png, id=235, 2657.93pt x 1212.53pt>
+<graphics/experiment-diagram.png, id=236, 2657.93pt x 1212.53pt>
 File: graphics/experiment-diagram.png Graphic file (type png)
 <use graphics/experiment-diagram.png>
 Package pdftex.def Info: graphics/experiment-diagram.png  used on input line 255.
 (pdftex.def)             Requested size: 265.80856pt x 121.2601pt.
  [5]
-<graphics/graph-linear.png, id=267, 1080.035pt x 667.49374pt>
+<graphics/graph-linear.png, id=268, 1080.035pt x 667.49374pt>
 File: graphics/graph-linear.png Graphic file (type png)
 <use graphics/graph-linear.png>
 Package pdftex.def Info: graphics/graph-linear.png  used on input line 282.
 (pdftex.def)             Requested size: 378.01791pt x 233.62631pt.
-<graphics/graph-quadratic.png, id=268, 1080.035pt x 667.49374pt>
+<graphics/graph-quadratic.png, id=269, 1080.035pt x 667.49374pt>
 File: graphics/graph-quadratic.png Graphic file (type png)
 <use graphics/graph-quadratic.png>
 Package pdftex.def Info: graphics/graph-quadratic.png  used on input line 289.
@@ -501,10 +501,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  29i,16n,35p,1435b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf" (12 pages, 467714 bytes).
+Output written on "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf" (12 pages, 467816 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
+ 373 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
  90 named destinations out of 1000 (max. 500000)
  290 words of extra memory for PDF output out of 10000 (max. 10000000)
 
