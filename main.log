@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  24 FEB 2020 08:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  24 FEB 2020 08:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -382,4 +382,129 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \marginparwidth=65.0pt
 * \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0p
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring ON on input line 79.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+ (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
+ (/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out) (/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.out)
+\@outlinefile=\write3
+\openout3 = `main.out'.
+
+\c@lstlisting=\count131
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.toc)
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.86 \newpage
+              [2]
+<graphics/aileron.jpg, id=183, 586.19pt x 295.1025pt>
+File: graphics/aileron.jpg Graphic file (type jpg)
+<use graphics/aileron.jpg>
+Package pdftex.def Info: graphics/aileron.jpg  used on input line 121.
+(pdftex.def)             Requested size: 293.09428pt x 147.55087pt.
+ [1]
+<graphics/bank-left.jpg, id=197, 1204.5pt x 770.88pt>
+File: graphics/bank-left.jpg Graphic file (type jpg)
+<use graphics/bank-left.jpg>
+Package pdftex.def Info: graphics/bank-left.jpg  used on input line 132.
+(pdftex.def)             Requested size: 301.12427pt x 192.71953pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 147.
+
+
+Overfull \hbox (44.36484pt too wide) in paragraph at lines 148--156
+[][] 
+ []
+
+[2 </Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/aileron.jpg> </Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/bank-left.jpg>] [3]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 188.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 188.
+ [4]
+<graphics/experiment-diagram.png, id=236, 2657.93pt x 1212.53pt>
+File: graphics/experiment-diagram.png Graphic file (type png)
+<use graphics/experiment-diagram.png>
+Package pdftex.def Info: graphics/experiment-diagram.png  used on input line 254.
+(pdftex.def)             Requested size: 265.80856pt x 121.2601pt.
+ [5]
+<graphics/graph-linear.png, id=268, 1080.035pt x 667.49374pt>
+File: graphics/graph-linear.png Graphic file (type png)
+<use graphics/graph-linear.png>
+Package pdftex.def Info: graphics/graph-linear.png  used on input line 281.
+(pdftex.def)             Requested size: 378.01791pt x 233.62631pt.
+<graphics/graph-quadratic.png, id=269, 1080.035pt x 667.49374pt>
+File: graphics/graph-quadratic.png Graphic file (type png)
+<use graphics/graph-quadratic.png>
+Package pdftex.def Info: graphics/graph-quadratic.png  used on input line 288.
+(pdftex.def)             Requested size: 378.01791pt x 233.62631pt.
+ [6 </Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/experiment-diagram.png> </Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-linear.png>] [7 </Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/graphics/graph-quadratic.png>] [8] [9]
+Overfull \hbox (67.20766pt too wide) in paragraph at lines 349--350
+[]\OT1/cmr/m/n/10 Cutler, C. (2019, Febru-ary 12). Why Does Stall Speed In-crease With Bank An-gle? Re-trieved from https://www.boldmethod.com/learn-
+ []
+
+
+Overfull \hbox (116.31898pt too wide) in paragraph at lines 351--352
+[]\OT1/cmr/m/n/10 Random vs Sys-tem-atic Er-ror. (n.d.). Re-trieved from https://www.physics.umd.edu/courses/Phys276/Hill/Information/Notes/ErrorAnalysis.html 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 355.
+[10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 355.
+ (/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 355.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 355.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 279A983A37EBB187AE14E0ACBB4E2D6E;2120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 355.
+ ) 
+Here is how much of TeX's memory you used:
+ 8887 strings out of 492616
+ 127166 string characters out of 6129482
+ 235868 words of memory out of 5000000
+ 12593 multiletter control sequences out of 15000+600000
+ 12049 words of font info for 47 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,16n,35p,1435b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf" (12 pages, 468399 bytes).
+PDF statistics:
+ 373 PDF objects out of 1000 (max. 8388607)
+ 333 compressed objects within 4 object streams
+ 90 named destinations out of 1000 (max. 500000)
+ 290 words of extra memory for PDF output out of 10000 (max. 10000000)
+
