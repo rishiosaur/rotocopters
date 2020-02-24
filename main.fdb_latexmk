@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1582550712 "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.tex" "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf" "main" 1582550712
-  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.aux" 1582550712 7252 0790d4a212a670ceac9ce0b5a5ce978a ""
-  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.tex" 1582550709 32835 465600efaab0717b530abe3388ed7f2c ""
+["pdflatex"] 1582551110 "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.tex" "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf" "main" 1582551111
+  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.aux" 1582551110 7252 0790d4a212a670ceac9ce0b5a5ce978a ""
+  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.tex" 1582551106 32837 59baa84fcc56879e0681e6ecaeb8bb17 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2019/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -101,15 +101,15 @@
   "graphics/experiment-diagram.png" 1582502410 195181 d8a0981f34736039f5c2723923ad735b ""
   "graphics/graph-linear.png" 1582506129 27163 703924991905bad04c012419bccccd29 ""
   "graphics/graph-quadratic.png" 1582506108 28093 e70cb90d1cbeac734a621770736dc8d5 ""
-  "main.aux" 1582550712 7252 0790d4a212a670ceac9ce0b5a5ce978a "pdflatex"
-  "main.out" 1582550712 2120 279a983a37ebb187ae14e0acbb4e2d6e "pdflatex"
-  "main.tex" 1582550709 32835 465600efaab0717b530abe3388ed7f2c ""
-  "main.toc" 1582550712 2742 7d9c56f91d4077034000a2f51ac0d72b "pdflatex"
+  "main.aux" 1582551110 7252 0790d4a212a670ceac9ce0b5a5ce978a "pdflatex"
+  "main.out" 1582551110 2120 279a983a37ebb187ae14e0acbb4e2d6e "pdflatex"
+  "main.tex" 1582551106 32837 59baa84fcc56879e0681e6ecaeb8bb17 ""
+  "main.toc" 1582551110 2742 7d9c56f91d4077034000a2f51ac0d72b "pdflatex"
   (generated)
-  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.log"
   "main.aux"
   "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.pdf"
-  "main.log"
-  "main.pdf"
   "main.toc"
   "main.out"
+  "main.log"
+  "main.pdf"
+  "/Users/rishikothari/Documents/School/Term 2/SNC-1D8/Intro/Assignments/Rotocopter Lab/main.log"
